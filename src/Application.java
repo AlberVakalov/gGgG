@@ -36,7 +36,7 @@ public class Application {
             } else if (deleteMatcher.matches()) {
                 tdl.deleteMatcher(Integer.parseInt(parts[1]));
             } else if (addMatcher.matches()){
-                tdl.addMatcherIndex(parts[1], Integer.parseInt(parts[2]));
+                tdl.addMatcherIndex(parts[1], Integer.parseInt(parts[1]));
             } else  {
                 tdl.showError();
             }
